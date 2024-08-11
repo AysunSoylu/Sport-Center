@@ -1,0 +1,233 @@
+/* trainers area css codes */
+.trainers-section {
+    background-color: #e8f0fe;
+    padding: 40px 0;
+  }
+
+  .trainers-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .trainers-header h2 {
+    color: #355592;
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+
+  .trainers-header p {
+    color: #333;
+  }
+
+  .wrapper {
+    display: flex;
+    gap: 20px;
+    justify-content: center; 
+    align-items: center; 
+  }
+
+  .container-2 {
+    position: relative;
+    width: 200px;
+    height: 250px;
+    margin: 20px;
+  }
+
+  .container-2 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+
+  .shape {
+    position: absolute;
+    background-color: #355592;
+  }
+
+  .shape.top, .shape.bottom, .shape.left, .shape.right {
+    transition: all 0.3s ease;
+  }
+
+  .shape.top {
+    width: 50px;
+    height: 10px;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    margin-bottom: 0;
+  }
+
+  .shape.bottom {
+    width: 50px;
+    height: 10px;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+
+  .shape.left {
+    width: 10px;
+    height: 50px;
+    left: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+
+  .shape.right {
+    width: 10px;
+    height: 50px;
+    right: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+
+  .container-2:hover .shape.left, .container-2:hover .shape.right {
+    height: 100px;
+  }
+
+  .overlay {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 60px;
+    background-color: #355592;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+  }
+
+  .container-2:hover .overlay {
+    opacity: 1;
+  }
+
+  .overlay-content {
+    text-align: center;
+  }
+
+  .overlay-content h3 {
+    margin: 0;
+    font-size: 1em;
+  }
+
+  .overlay-content p {
+    margin: 5px 0 0;
+    font-size: 0.8em;
+  }
+
+  .underline {
+    width: 70px;
+    height: 7px;
+    background-color: #ff9800;
+    margin: 10px auto 0;
+    clip-path: polygon(20px);
+    border-radius: 10px;
+    margin-top: 4px;
+    margin-bottom: 20px;
+  }
+
+  .products-header h2 {
+    color:#355592;
+  }
+
+
+  @media screen and (max-width:576px){
+    .trainers-section {
+      background-color: #e8f0fe;
+      padding: 40px 0;
+      height: 1600px;
+      width: 576px;
+    }
+
+    .trainers-header {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: large;
+    }
+  
+    .trainers-header h2 {
+      color: #355592;
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+  
+    .trainers-header p {
+      color: #333;
+      font-size: medium;
+      width: 300px;
+      margin-left: 120px;
+    }
+
+    .wrapper {
+      display: block;
+      gap: 40px;
+      justify-content: center; 
+      align-items: center; 
+      margin-top: 50px;
+      margin-left: 50px;
+    }
+
+    .container-2 {
+      position: relative;
+      width: 300px;
+      height: 350px;
+      margin: 80px;
+      margin-right: -5px;
+     
+    }
+  
+    .container-2 img {
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+    }
+
+   .shape.top {
+    width: 100px;
+    height: 10px;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    margin-bottom: 0;
+  }
+
+  .shape.bottom {
+    width: 100px;
+    height: 10px;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+
+  .shape.left {
+    width: 10px;
+    height: 130px;
+    left: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+
+  .shape.right {
+    width: 10px;
+    height: 130px;
+    right: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
+  
+
+  

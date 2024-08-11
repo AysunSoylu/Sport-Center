@@ -1,0 +1,156 @@
+/* review area css codes */
+.review-section {
+    background-color: #e8f0fe;
+    padding: 40px 0;
+  }
+
+  .review-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .review-header h2 {
+    color: #355592;
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+
+  .review-header p {
+    color: #333;
+  }
+
+  .review-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .review-card {
+    overflow: hidden;
+    width: 470px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    height: 150px;
+    margin-top: 10px;
+  }
+
+  .review-card img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+  }
+
+  .review-card h3 {
+    color: #333;
+    margin: 0;
+    font-size: 1.2em;
+  }
+
+  .review-card h4 {
+    color: gray;
+    margin: 5px 0 10px;
+    font-size: 1em;
+    
+  }
+
+  .review-card p {
+    background-color:#355592;
+    color: white;
+    padding: 5px;
+    position: absolute;
+    font-size: 0.7em;
+    margin-top: 20px;
+    
+  }
+
+  .underline {
+    width: 60px;
+    height: 10px;
+    background-color: #ff9800;
+    margin: 10px auto 0;
+    clip-path: polygon(20px);
+    border-radius: 10px;
+    margin-top: 4px;
+    margin-bottom: 20px;
+  }
+
+  @media screen and (max-width:576px){
+  .review-header {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 15px;
+    margin-right: 100px;
+    margin-left: 30px;
+  }
+
+  .review-header p {
+    color: #333;
+    font-size: large;
+    width: 350px;
+    text-align: center;
+    margin-left: 60px;
+  }
+
+  .review-section {
+    background-color: #e8f0fe;
+    padding: 40px 0;
+    height: 820px;
+  }
+
+  .review-container {
+    display: block;
+    justify-content: center;
+    padding: 20px;
+    margin-right: 70px;
+  }
+
+  .review-card {
+    overflow: hidden;
+    width: 570px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    height: 270px;
+    margin-top: 10px;
+    margin-left: -40px;
+    
+  }
+
+  .review-card h3 {
+    color: #333;
+    margin: 0;
+    font-size: medium;
+    margin-right: 110px;
+  }
+
+  .review-card h4 {
+    color: gray;
+    margin: 5px 0 10px;
+    font-size: small;
+    margin-right: 110px;
+    
+  }
+
+  .review-card p {
+    background-color:#355592;
+    color: white;
+    padding: 5px;
+    position: absolute;
+    font-size: medium;
+    
+  }
+
+  .review-card img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-bottom: 45px;
+  margin-right: 100px;
+
+
+  }
+
+}
