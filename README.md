@@ -5,4 +5,7 @@ In this project, the POWERFULL business, which is a sports center, has been intr
 You can access the live view of the site by running the live link in the readme.md file.
 
 # technologies used
-HTML, CSS, JAVASCRİPT
+HTML, CSS, JAVASCRIPT
+
+### Live Site
+https://aysunsoylu.github.io/Sport-Center/
