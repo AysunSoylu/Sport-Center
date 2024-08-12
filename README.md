@@ -8,4 +8,4 @@ You can access the live view of the site by running the live link in the readme.
 HTML, CSS, JAVASCRIPT
 
 ### Live Site
-https://aysunsoylu.github.io/Sport-Center/
+https://main--roaring-puffpuff-ab5d57.netlify.app/
