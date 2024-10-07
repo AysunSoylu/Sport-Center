@@ -1,5 +1,6 @@
 # SPORT CENTER
-In this project, the POWERFULL business, which is a sports center, has been introduced. A website belonging to this business has been designed. Within the website, areas such as a home page, classes, trainers, reviews have been designed, and there are also areas to calculate BMI. Users can access all information about this business by using this site.
+In this project, the POWERFULL sports center has been introduced through a fully designed website. The website includes sections such as the home page, classes, trainers, and reviews, as well as a BMI calculator. Users can access all the information related to this business using the site. Additionally, the website has been made fully responsive, with specific adjustments for screens as small as 576px to ensure a seamless experience on various devices.
+
 
 # How does the site work?
 You can access the live view of the site by running the live link in the readme.md file.
